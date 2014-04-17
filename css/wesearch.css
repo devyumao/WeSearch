@@ -1,0 +1,197 @@
+body {
+	color: #616264;
+}
+
+.panel {
+	box-shadow: 0 1px 2px 0 #ddd;
+}
+
+/* index.html */
+
+.search-box {
+	margin-top: 90px;
+	text-align: center;
+}
+
+.logo-box {
+	margin-bottom: 10px;
+}
+
+.logo {
+	width: 270px;
+	height: 90px;
+}
+
+.container-index .input-group {
+	width: 470px;
+}
+
+.dev {
+	margin-top: 20px;
+	color: #888;
+}
+
+/* influence.html */
+
+
+.container-influ, .container-disam {
+	width: 970px !important;
+	margin-left: 55px;
+	margin-right: 55px;
+}
+
+.users {
+	width: 620px;
+	font-size: 13px;
+}
+
+.user-avatar img {
+	border-radius: 3px;
+	width: 80px;
+	height: 80px;
+}
+
+.user-name {
+	font-weight: bold;
+}
+
+.user-gender {
+	display: inline-block;
+	background-image: url(../img/sina-icons.png);
+	background-size: 2000px 43px;;
+	background-repeat: no-repeat;
+	position: relative;
+	top: 2px;
+	width: 16px;
+	height: 13px;
+}
+
+.male {
+	background-position: 0 -6px;
+}
+
+.female{
+	background-position: -25px -6px;
+}
+
+.user-social span{
+	margin-right: 10px;
+}
+
+.line {
+	margin-top: 3px;
+}
+
+.container-influ .input-group, .container-disam .input-group {
+	width: 465px;
+	position: relative;
+	top: 8px;
+}
+
+.logo-mini {
+	margin-right: 5px;
+	width: 150px;
+	height: 50px;
+	float: left;
+}
+
+.panel-row {
+	margin-left: 0;
+	margin-right: 0;
+	padding-right: 0;
+}
+
+.panel-row .col-xs-1, .panel-row .col-xs-2, .panel-row .col-xs-3, .panel-row .col-xs-4 {
+	padding-left: 0;
+	padding-right: 0;
+}
+
+.panel-row .col-xs-1 {
+	width: 35px;
+}
+
+.panel-row .col-xs-2 {
+	width: 95px;
+}
+
+.panel-row .col-xs-3 {
+	width: 438px;
+}
+
+.panel-row .col-xs-4 {
+	width: 24px;
+}
+
+.header {
+	margin-top: 5px;
+	margin-bottom: 30px;
+}
+
+.user-gender, .user-location {
+	margin-left: 5px;
+}
+
+.btn-sim {
+	float: right;
+}
+
+.glyphicon-user {
+	color: #616264;
+}
+
+.label-default {
+	background-color: #616264;
+}
+
+.pop-user {
+	display: inline-block;
+	margin: 5px;
+	text-align: center;
+	width: 60px;
+}
+
+.pop-avatar img {
+	border-radius: 3px;
+	width: 60px;
+	height: 60px;
+}
+
+.popover {
+	max-width: 312px;
+	font-size: 10px;
+}
+
+.popover.right {
+	margin-left: 18px;
+}
+
+.pop-name {
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+
+.results-info {
+	color: #888;
+	margin-bottom: 12px;
+	padding-left: 8px;
+}
+
+/* disam.html */
+
+.candidates {
+	width: 620px;
+}
+
+.candidates li {
+	padding-left: 40px;
+	font-weight: bold;
+}
+
+.disam-word {
+	font-weight: bold;
+}
+
+.container-disam .dev {
+	width: 620px;
+	text-align: center;
+} 
